@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "HS Kakka",
+	"description": "Muuttaa Helsingin Sanomien timantin kakka-emojiksi.",
+	"version": "42",
+	"content_scripts": [
+		{
+		"matches": [
+		  "*://www.hs.fi/*", "*://hs.fi/*"
+		],
+		"js": ["hs-kakka.js"]
+		}
+	]
+}
