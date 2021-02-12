@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "HS Kakka",
 	"description": "Muuttaa Helsingin Sanomien timantin kakka-emojiksi.",
-	"version": "69",
+	"version": "420",
 	"content_scripts": [
 		{
 		"matches": [
